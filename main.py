@@ -106,3 +106,6 @@ if __name__ == '__main__':
         assert result == "Несбалансированно"
 
     print("Все тесты пройдены успешно!")
+    if __name__ == '__main__':
+        user_input = input("Введите строку со скобками для проверки: ")
+        print(is_balanced(user_input))
